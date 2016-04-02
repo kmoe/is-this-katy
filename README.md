@@ -19,5 +19,5 @@ This was a quick Easter hack to see if I could get my xNT talking to Telegram ov
 - the board isn't currently connected to my computer
 - I'm not at my computer
 - the bot isn't online
-- you get one of those hacked Chinese chips and spoof my tag ID (it's not private, it's in the gif)
-- you're good at serial and manage to steal my computer and send it the appropriate data
+- you get one of those hacked Chinese chips, steal my computer, and spoof my tag ID (it's not private, it's in the gif)
+- you're good at serial and send the appropriate data to my stolen computer some other way
