@@ -2,6 +2,8 @@
 
 A [Telegram bot](https://core.telegram.org/bots/) that verifies Katy's identity by asking her to scan her implanted NFC transponder.
 
+Never again will you wonder whether Katy really is who she says she is!
+
 ## What?
 
 Invite [@IsThisKatyBot](telegram.me/IsThisKatyBot) to your Telegram chat, or message it directly. Then whenever you send a message including the string "is this katy" (regex subject to change), the bot will ping Katy asking her to scan her [xNT](https://dangerousthings.com/shop/xnt-ntag216-2x12mm-glass-tag/) on a [PN532 breakout board](https://www.adafruit.com/products/364) attached to her computer.

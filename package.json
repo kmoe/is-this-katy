@@ -1,0 +1,25 @@
+{
+  "name": "is-this-katy",
+  "version": "1.0.0",
+  "description": "katy-factor authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "nope"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmoe/is-this-katy.git"
+  },
+  "author": "Katy Moe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmoe/is-this-katy/issues"
+  },
+  "homepage": "https://github.com/kmoe/is-this-katy#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.21.1",
+    "pn532": "^0.1.0",
+    "ramda": "^0.20.0",
+    "serialport": "^2.0.6"
+  }
+}
