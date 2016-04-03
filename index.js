@@ -15,6 +15,11 @@ console.log('Initialising...');
 
 rfid.on('ready', function() {
   console.log('PN532 initialised');
+
+  rfid.on('tag', function(tag) {
+    console.log('tag:', tag);
+  });
+
   bot.onText(/is this katy/, function(msg, match) {
     console.log('Message received: ', msg);
 
@@ -29,7 +34,7 @@ rfid.on('ready', function() {
       clearTimeout(authTimeout);
       console.log('tag uid:', tag.uid);
       if (tag.uid === config.nfcId) {
-        bot.sendMessage(fromId, '🐼');
+        bot.sendMessage(fromId, 'This is Katy! 🐼');
       } else {
         bot.sendMessage(fromId, 'Not Katy!');
       }
